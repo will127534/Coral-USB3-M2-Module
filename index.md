@@ -24,9 +24,9 @@ Double-check both Coral Module and ASM1142 pinout from the datasheet:
 ![](https://i.imgur.com/pIeGWoI.png)
 
 Bingo, it looks like the connection is:  
-Coral Module <---> USB 3.0 Controller
-"PCIe" TX <---> RX
-"PCIe" RX <---> TX
+Coral Module <---> USB 3.0 Controller  
+"PCIe" TX <---> RX  
+"PCIe" RX <---> TX  
 
 And you can connect the USB2.0 D+,D- too.  
 
@@ -50,7 +50,7 @@ A side note here is that supposedly you can ask the CM4 bootloader to load the F
 
 ## How is the power looks like
 
-So now I have a working Coral Module on an M.2 2242 form factor with USB 3.0 connection, but the board seems quite hot so I wonder what the power looks like.
+So now I have a working Coral Module on an M.2 2242 form factor with USB 3.0 connection, but the board seems quite hot so I wonder what the power looks like.  
 
 And here I present my setup:
 ![](https://i.imgur.com/D5WkUr4.jpg)
