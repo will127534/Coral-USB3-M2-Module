@@ -1,0 +1,12 @@
+_id: 8a0498d0-d30f-11ec-a520-19cc241a9fea
+_parent: 'https://will127534.github.io/Miniature-CM4-Cluster/'
+replying_to_uid: ''
+message: >-
+  Amazing work! Especially love how the Pi are connected through uart. I'm not
+  too sure I understand why all the Pis go to one switch, isn't it better to
+  have more IO? since each Pi is more capable isn't that just going to limit it
+  down?
+name: Mica Butu
+email: ''
+hp: ''
+date: 1652482423
