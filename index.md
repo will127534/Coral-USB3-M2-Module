@@ -83,6 +83,12 @@ So my conclusion is that this board probably needs some heatsink to dissipate th
 
 This time we tested that the coral Module really is capable of USB3 without special hardware and it uses the same pinout as the PCIe port, and it is also possible to flash VL805 using the flash loader tool from the Raspberry Pi forum. The only concern or problem is that the Coral module and VL805 take quite some power that definitely needs a heatsink to dissipate the heat.
 
-The board is also released in Opensource license (MIT), so feel free to take it to any project. I was quite frustrated that I couldn't find any USB3 to PCIe Kicad design that I can base on during the design, given how mundane this might be on PC or even Raspberry Pi world.
+The board is also released in Opensource license (MIT), so feel free to take it to any project.
+[https://github.com/will127534/Coral-USB3-M2-Module](https://github.com/will127534/Coral-USB3-M2-Module)
+I was quite frustrated that I couldn't find any USB3 to PCIe Kicad design that I can base on during the design, given how mundane this might be on PC or even Raspberry Pi world.
 
 I also really hope that someday chip vendor can just release their FW loading tools and FW for their chipset on their website too...
+
+
+
+{% include comments.html %}
