@@ -24,12 +24,11 @@ Double-check both Coral Module and ASM1142 pinout from the datasheet:
 ![](https://i.imgur.com/pIeGWoI.png)
 
 Bingo, it looks like the connection is:  
-| Communication | Coral Module | USB 3.0 Controller |
+Coral Module <---> USB 3.0 Controller
+"PCIe" TX <---> RX
+"PCIe" RX <---> TX
 
-| -------- | -------- | -------- |
-| USB3     | TX     | RX     |
-|      | RX     | TX     |
-| USB2    | D+,D-     |  D+,D-     |
+And you can connect the USB2.0 D+,D- too.  
 
 
 ## USB 3.0 controller - where is the FW
