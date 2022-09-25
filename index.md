@@ -25,6 +25,7 @@ Double-check both Coral Module and ASM1142 pinout from the datasheet:
 
 Bingo, it looks like the connection is:  
 | Communication | Coral Module | USB 3.0 Controller |
+
 | -------- | -------- | -------- |
 | USB3     | TX     | RX     |
 |      | RX     | TX     |
